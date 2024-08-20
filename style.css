@@ -1,27 +1,50 @@
-.first, .footer {
+.first,
+.footer {
     background-color: #1F2937;
 }
 
-.first {
-
-}
+.first {}
 
 .logo {
     font-size: 24px;
-    color: #F9FAF8;
+    
+}
+
+img {
+    color: #E5E7EB;
+}
+
+.box img {
+    color: darkblue;
 }
 
 #intro-title {
     font-size: 48px;
-    font-weight: extra-bold;
-    color: #F9FAF8;
+    font-weight: 800;
+    
 }
 
-#intro-subtext, .link {
+#intro-subtext,
+.link {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.footer {
+button, .logo, #intro-title {
+    color: #F9FAF8;
+}
 
+#info-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+
+}
+.sign-up,
+button {
+    background-color: #3882F6;
+}
+
+.footer {
+    color: #E5E7EB;
 }
