@@ -10,10 +10,12 @@
     
 }
 
+/* from https://stackoverflow.com/questions/7101743/can-i-style-an-images-alt-text-with-css*/
 img {
     color: #E5E7EB;
 }
 
+/* for readability changed the color of the alt attribute of images in the box div*/
 .box img {
     color: darkblue;
 }
@@ -21,7 +23,7 @@ img {
 #intro-title {
     font-size: 48px;
     font-weight: 800;
-    
+
 }
 
 #intro-subtext,
@@ -30,7 +32,9 @@ img {
     color: #E5E7EB;
 }
 
-button, .logo, #intro-title {
+button,
+.logo,
+#intro-title {
     color: #F9FAF8;
 }
 
@@ -40,9 +44,22 @@ button, .logo, #intro-title {
     color: #1F2937;
 
 }
-.sign-up,
-button {
+
+button,
+.sign-up {
     background-color: #3882F6;
+}
+
+.text-box {
+    background-color: #E5E7EB;
+
+}
+
+.about-item {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color:#1F2937; 
 }
 
 .footer {
