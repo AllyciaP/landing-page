@@ -33,22 +33,34 @@ body {
 .links-div {
     display: flex;
     flex-direction: row;
+    gap: 15px;
 }
 
+
+/*contains intro text and image*/
 .intro {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding-top: 40px;
 }
 
 .intro-text {
     display: flex;
     flex-direction: column;
+    
 }
 
 /* from https://stackoverflow.com/questions/7101743/can-i-style-an-images-alt-text-with-css*/
+/*Photo by Pixabay: https://www.pexels.com/photo/three-red-tower-speakers-373638/ */
 img {
     color: #E5E7EB;
+    height: auto;
+    width: 200px;
+}
+.image {
+    display: flex;
+    flex-direction: row;
 }
 
 /* for readability changed the color of the alt attribute of images in the box div*/
@@ -59,13 +71,23 @@ img {
 #intro-title {
     font-size: 48px;
     font-weight: 800;
+    margin-top: -24px;
+    margin-bottom: -24px;
+    padding-top: 15px;
+}
 
+#intro-subtext {
+  padding-top: 9px;
 }
 
 #intro-subtext,
-.link {
+a {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.button-01 {
+    align-self: flex-start;
 }
 
 button,
