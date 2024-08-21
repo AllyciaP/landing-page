@@ -44,6 +44,7 @@ body {
     justify-content: space-around;
     padding-top: 40px;
     padding-bottom: 40px;
+
 }
 
 .intro-text {
@@ -58,11 +59,13 @@ img {
     color: #E5E7EB;
     height: 205pxpx;
     width: 300px;
+
 }
 
 .image {
     display: flex;
     flex-direction: row;
+    flex: 0 1 auto;
 }
 
 /* for readability changed the color of the alt attribute of images in the box div*/
@@ -165,11 +168,11 @@ button,
     gap: 75px;
 
     /*to soften border*/
-   border-radius: 30px;
+    border-radius: 30px;
 
-   /*to make space between edge*/
-   padding-left: 50px;
-   padding-right: 50px;
+    /*to make space between edge*/
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .text-box {
