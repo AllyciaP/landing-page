@@ -52,11 +52,11 @@ body {
 }
 
 /* from https://stackoverflow.com/questions/7101743/can-i-style-an-images-alt-text-with-css*/
-/*Photo by Pixabay: https://www.pexels.com/photo/three-red-tower-speakers-373638/ */
+/*Photo by Anthony 🙂: https://www.pexels.com/photo/closed-up-photography-of-brown-wooden-framed-sony-speaker-157534/*/
 img {
     color: #E5E7EB;
     height: auto;
-    width: 200px;
+    width: 300px;
 }
 .image {
     display: flex;
