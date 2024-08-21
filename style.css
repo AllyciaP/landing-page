@@ -1,13 +1,49 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
 .first,
 .footer {
     background-color: #1F2937;
 }
 
-.first {}
+/*contains header, intro text and image*/
+.first {
+    display: flex;
+    flex-direction: column;
+}
+
+/*contains logo text, and 3 links*/
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
 .logo {
     font-size: 24px;
-    
+
+}
+
+.links-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.intro-text {
+    display: flex;
+    flex-direction: column;
 }
 
 /* from https://stackoverflow.com/questions/7101743/can-i-style-an-images-alt-text-with-css*/
@@ -59,7 +95,7 @@ button,
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
-    color:#1F2937; 
+    color: #1F2937;
 }
 
 .footer {
