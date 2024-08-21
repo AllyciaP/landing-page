@@ -56,7 +56,7 @@ body {
 /*Photo by Anthony 🙂: https://www.pexels.com/photo/closed-up-photography-of-brown-wooden-framed-sony-speaker-157534/*/
 img {
     color: #E5E7EB;
-    height: auto;
+    height: 205pxpx;
     width: 300px;
 }
 
@@ -145,6 +145,33 @@ button,
     background-color: #3882F6;
 }
 
+.sign-up p {
+    color: #E5E7EB;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+
+    /*to make whitespace around*/
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+    /*to make gap*/
+    gap: 75px;
+
+    /*to soften border*/
+   border-radius: 30px;
+
+   /*to make space between edge*/
+   padding-left: 50px;
+   padding-right: 50px;
+}
+
 .text-box {
 
     /*flex to center text for quote*/
@@ -157,6 +184,10 @@ button,
 
 }
 
+.button-02 {
+    align-self: center;
+}
+
 .about-item {
     font-size: 36px;
     font-weight: lighter;
@@ -164,6 +195,13 @@ button,
     color: #1F2937;
 }
 
+
 .footer {
     color: #E5E7EB;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
 }
